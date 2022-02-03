@@ -1,0 +1,54 @@
+.comment {
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+  display: grid;
+  align-items: center;
+  grid-template-areas: "name date" "stars stars" "footer footer";
+}
+
+.name {
+  margin: 0;
+  grid-area: name;
+}
+
+.date {
+  font-size: 14px;
+  grid-area: date;
+  text-align: right;
+}
+
+.stars {
+  grid-area: stars;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  line-height: 0;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    grid-template-areas: "stars date" "name name" "footer footer";
+    margin-bottom: 0rem;
+  }
+
+  .footer {
+    grid-area: footer;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .icon {
+    display: block;
+    text-align: right;
+  }
+}

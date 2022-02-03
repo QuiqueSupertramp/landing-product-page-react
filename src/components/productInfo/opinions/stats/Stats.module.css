@@ -1,0 +1,12 @@
+.Stats {
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+    order: 3;
+}
+
+@media screen and (max-width: 768px) {
+    .Stats {
+        order: 5;
+    }
+}

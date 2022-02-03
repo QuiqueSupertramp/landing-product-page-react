@@ -1,0 +1,9 @@
+.li {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .ul {
+        padding-inline-start: 20px;
+    }
+}

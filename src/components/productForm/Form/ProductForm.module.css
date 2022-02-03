@@ -1,0 +1,19 @@
+.ProductForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductForm .valoration {
+    display: flex;
+    gap: 2rem;
+    font-size: 30px;
+    margin: 1rem auto;
+}
+
+.ProductForm .emojisInput {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}

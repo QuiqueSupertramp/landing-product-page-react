@@ -1,0 +1,45 @@
+.ProductInfo {
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.ProductInfo a {
+  text-align: center;
+  width: 50%;
+  margin: 0;
+  line-height: 3;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ProductInfo .active {
+  border-bottom: 2px solid orange;
+  color: black;
+}
+
+.ProductInfo .inactive {
+  color: grey;
+  border-bottom: 2px solid #5552;
+}
+
+.wrapperInfo {
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    font-size: 13px;
+  }
+}

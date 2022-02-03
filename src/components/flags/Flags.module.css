@@ -1,0 +1,9 @@
+.flags {
+    display: flex;
+    gap: 1rem;
+  }
+  .flags img {
+    width: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+  }

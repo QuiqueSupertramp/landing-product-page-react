@@ -1,0 +1,40 @@
+.progressBar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.15rem;
+}
+
+.label {
+  margin-right: 0.2rem;
+  font-size: 15px;
+  line-height: 0;
+}
+
+progress {
+  appearance: none;
+  height: 0.5rem;
+}
+.bar::-webkit-progress-bar {
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.bar::-webkit-progress-value {
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.bar::-webkit-progress-inner-element {
+  box-shadow: 2px 2px 5px #0004;
+  border-radius: 10px;
+}
+
+.progressBar label {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.percentage {
+  font-size: 13px;
+}

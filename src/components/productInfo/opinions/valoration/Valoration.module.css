@@ -1,0 +1,21 @@
+.valoration {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid lightblue;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 30px;
+    order: 1;
+}
+
+.average {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.opinions {
+    font-size: 14px;
+}
