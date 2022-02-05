@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/landing-product-page-react/static/css/main.d064c9be.css",
-    "main.js": "/landing-product-page-react/static/js/main.035240c4.js",
+    "main.css": "/landing-product-page-react/static/css/main.d10b6923.css",
+    "main.js": "/landing-product-page-react/static/js/main.542ea530.js",
     "static/media/macBook.png": "/landing-product-page-react/static/media/macBook.98ee9ad71a6fec318fa5.png",
     "index.html": "/landing-product-page-react/index.html",
-    "main.d064c9be.css.map": "/landing-product-page-react/static/css/main.d064c9be.css.map",
-    "main.035240c4.js.map": "/landing-product-page-react/static/js/main.035240c4.js.map"
+    "main.d10b6923.css.map": "/landing-product-page-react/static/css/main.d10b6923.css.map",
+    "main.542ea530.js.map": "/landing-product-page-react/static/js/main.542ea530.js.map"
   },
   "entrypoints": [
-    "static/css/main.d064c9be.css",
-    "static/js/main.035240c4.js"
+    "static/css/main.d10b6923.css",
+    "static/js/main.542ea530.js"
   ]
 }
