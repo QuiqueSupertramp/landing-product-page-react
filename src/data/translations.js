@@ -9,7 +9,7 @@ const translations = {
       nav: {
         description: "descripción",
         opinions: "opiniones",
-        features: "características",
+        features: "detalles",
       },
       description: {
         power: {

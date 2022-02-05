@@ -37,9 +37,3 @@
 .wrapperInfo {
   margin: 2rem auto;
 }
-
-@media screen and (max-width: 768px) {
-  .nav {
-    font-size: 13px;
-  }
-}

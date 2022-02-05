@@ -1,6 +1,5 @@
 import "./App.css";
 import NavBar from "./components/navBar/NavBar";
-import ProductForm from "./components/productForm/Form/ProductForm";
 import ProductHeader from "./components/productHeader/ProductHeader";
 import ProductInfo from "./components/productInfo/ProductInfo";
 import { LanguageProvider } from "./context/LanguageContext";
@@ -11,11 +10,9 @@ function App() {
     <LanguageProvider>
       <OpinionsProvider>
         <div className="App">
-    <NavBar />
-
+          <NavBar />
           <ProductHeader />
           <ProductInfo />
-          <ProductForm />
         </div>
       </OpinionsProvider>
     </LanguageProvider>
