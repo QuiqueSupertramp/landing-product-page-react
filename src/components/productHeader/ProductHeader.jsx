@@ -25,7 +25,7 @@ const ProductHeader = () => {
         <div className={styles.feature}>8GB RAM</div>
         <div className={styles.feature}>CHIP M1</div>
       </div>
-      <span className={styles.stock}><b>{stock}</b></span>
+      <span className={styles.stock}>{stock}</span>
       <p className={styles.stockInfo}>{stockInfo} {stockFakeDate}</p>
     </div>
   );

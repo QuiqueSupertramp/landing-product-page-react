@@ -48,6 +48,12 @@
 
 .stock {
   grid-area: stock;
+  background-color: red;
+  color: white;
+  width: fit-content;
+  padding: .2rem .4rem;
+  border-radius: 3px;
+  margin-bottom: .3rem;
 }
 
 .stockInfo {
@@ -90,6 +96,7 @@
   .stock {
     align-self: end;
     justify-self: flex-start;
+    margin-bottom: 0px;
   }
 
   .stockInfo {
