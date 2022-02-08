@@ -9,6 +9,11 @@
   margin-right: 0.2rem;
   font-size: 15px;
   line-height: 0;
+  width: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.1rem;
 }
 
 progress {
@@ -27,12 +32,6 @@ progress {
 .bar::-webkit-progress-inner-element {
   box-shadow: 2px 2px 5px #0004;
   border-radius: 10px;
-}
-
-.progressBar label {
-  display: flex;
-  align-items: center;
-  gap: 0.1rem;
 }
 
 .percentage {

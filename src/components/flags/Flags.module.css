@@ -7,3 +7,7 @@
     cursor: pointer;
     border-radius: 3px;
   }
+
+  .flags img:active {
+    transform: scale(1.2);
+  }

@@ -26,6 +26,8 @@ const ProductInfo = () => {
           : navLinks.forEach((el) => (el.href = "#null"));
       }
     }
+
+    
   }, [setElement, entradas]);
 
   const isActiveClass = (name) =>

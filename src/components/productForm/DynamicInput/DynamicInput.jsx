@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import useWidth from "../../../hooks/useWidth";
 import styles from "./DynamicInput.module.css";
 import { AiFillCheckCircle, AiFillCloseCircle } from "react-icons/ai";
 
@@ -19,11 +18,8 @@ export const DynamicInput = ({
   const activeFalse = ()=> setActive(false)
   const activeTrue = ()=> setActive(true)
 
-  // Extraemos el estado del hook useWidth
-  let {innerWidth} = useWidth()
-
   return (
-    <div className={[styles.container, innerWidth > 768 ? styles.gc1 : styles.gc2].join(" ")}>
+    <div className={styles.container}>
       <label className={styles.label} htmlFor={name}>
         {label}
       </label>
@@ -41,14 +37,12 @@ export const DynamicInput = ({
           value={value.value}
           onChange={handleOpinion}
           onKeyUp={validation}
-          onBlur={validation, activeFalse}
+          onBlur={activeFalse}
           onFocus={activeTrue}
         />
         <div className={styles.validationIcons}>
-          {/* {value.ok === true && <span>V</span>}
-          {value.ok === false && <span>X</span>} */}
           {value.ok === true && <AiFillCheckCircle color="#28a745" />}
-          {value.ok === false && <AiFillCloseCircle color="var(--red)" />}
+          {value.ok === false && <AiFillCloseCircle color="#ff0000" />}
         </div>
       </div>
       <div className={styles.errorInput}>

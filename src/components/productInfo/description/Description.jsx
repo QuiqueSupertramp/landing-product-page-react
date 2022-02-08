@@ -12,8 +12,10 @@ const Description = () => {
         {textsDescription.map((el, index) => {
           return (
             <li className={styles.li} key={index}>
-              <strong>{el.title}</strong>
-              {el.text}
+              <p>
+                <strong>{el.title}</strong>
+                {el.text}
+              </p>
             </li>
           );
         })}

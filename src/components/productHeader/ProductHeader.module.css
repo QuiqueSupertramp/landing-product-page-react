@@ -41,9 +41,10 @@
   width: fit-content;
   display: flex;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   border: 1px solid grey;
   font-size: 14px;
+  text-align: center;
 }
 
 .stock {
@@ -51,9 +52,9 @@
   background-color: red;
   color: white;
   width: fit-content;
-  padding: .2rem .4rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 3px;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 .stockInfo {
@@ -83,14 +84,14 @@
   }
 
   .feature {
-    width: 103px;
+    width: 100px;
     justify-content: center;
     font-size: 13px;
   }
 
   .price {
     margin-right: 4rem;
-    line-height: 1;
+    line-height: 0.8;
   }
 
   .stock {
@@ -101,6 +102,37 @@
 
   .stockInfo {
     justify-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .productHeader {
+    grid-template-areas: "title title" "img img" "features features" "stock price" "stockInfo stockInfo";
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .features {
+    flex-direction: row;
+  }
+
+  .feature {
+    width: fit-content;
+  }
+
+  .price {
+    margin-right: 0rem;
+    margin-top: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .price {
+    font-size: 2.3rem;
+  }
+
+  .title {
+    font-size: 1.8em;
   }
 
 }

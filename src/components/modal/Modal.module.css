@@ -1,31 +1,32 @@
-.white {
+.background {
     position: fixed;
     top: 0;
-    left: 0;   
-    width: 100vw;
-    height: 100vh;
-    background-color: #fff;
-    z-index: 999;
-}
-
-.background {
+    left: 0; 
     width: 100vw;
     height: 100vh;
     background-color: #0008;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 .modal {
-    width: 50%;
-    padding: 3rem;
+    padding: 2rem;
     background-color: #fff;
     position: relative;
 }
 
 .closeBtn {
     position: absolute;
-    right: 3rem;
-    top: 2rem;
+    right: 1rem;
+    top: 1rem;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+@media screen and (max-width:768px) {
+    .modal {
+        width: 80%;
+    }
 }

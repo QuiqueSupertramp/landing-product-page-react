@@ -1,4 +1,3 @@
-import "./App.css";
 import NavBar from "./components/navBar/NavBar";
 import ProductHeader from "./components/productHeader/ProductHeader";
 import ProductInfo from "./components/productInfo/ProductInfo";

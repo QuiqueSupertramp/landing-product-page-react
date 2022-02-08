@@ -4,6 +4,7 @@
   display: grid;
   align-items: center;
   grid-template-areas: "name date" "stars stars" "footer footer";
+  grid-template-columns: 1fr 1fr;
 }
 
 .name {

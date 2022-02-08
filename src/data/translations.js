@@ -21,8 +21,12 @@ const translations = {
           text: "El chip M1 lleva la CPU más rápida que hemos desarrollado. Con semejante potencia en la recámara, el MacBook Air pisa a fondo al realizar procesos tan exigentes como editar vídeo con calidad profesional o echar partidas épicas. Y eso es solo el principio, porque además de multiplicar por hasta 3,5 la velocidad de la generación anterior,2 la CPU de ocho núcleos del chip M1 equilibra los núcleos de alto rendimiento y los de eficiencia, que se ocupan de las tareas cotidianas, para consumir solo una décima parte de la energía. Ahí es nada.",
         },
         screen: {
-          title: "Colores tan reales que no te lo crees.",
+          title: "Colores tan reales que no te lo crees. ",
           text: "La resolución de 2.560 por 1.600 píxeles de la pantalla Retina de 13,3 pulgadas ofrece un nivel de detalle y realismo asombroso. El texto se ve con la máxima claridad, los colores brillan con luz propia y el vidrio llega hasta el borde de la carcasa para que nada te distraiga.",
+        },
+        keyboard: {
+          title: "Un teclado con mayúsculas. ",
+          text: "Disfruta de una comodidad absoluta de la A a la Z. Además de escribir a tus anchas, con los atajos preprogramados de este teclado puedes acceder al instante a las prestaciones que más usas. Habla con Siri, cambia el idioma del teclado, responde con el emoji perfecto, encuentra documentos con Spotlight… Ni te imaginas todo lo que puedes hacer con un toque. Y la retroiluminación con sensor de luz ambiental te permite escribir incluso cuando estás medio a oscuras.",
         },
       },
       features: {
@@ -40,6 +44,52 @@ const translations = {
             { title: "Capacidad", text: "256GB" },
           ],
         },
+        conections: {
+          title: "Conexiones",
+          properties: [
+            { title: "Wifi", text: "wifi 802.11ax (6ª gen.)" },
+            { title: "Bluetooth", text: "Bluetooth 5.0" },
+            { title: "Auriculares", text: "3,5 milimetros" },
+          ],
+        },
+        battery: {
+          title: "Batería",
+          properties: [
+            { title: "Duración", text: "Hasta 18 horas" },
+            { title: "Adaptador", text: "Tipo C 30w" },
+          ],
+        },
+      },
+      opinions: {
+        opinions: "opiniones",
+        call: "Escribe tu opinión",
+      },
+    },
+    productForm: {
+      name: {
+        label: "Nombre",
+        placeholder: "Escribe tu nombre",
+        errorMsg: "* Solo admite letras y espacios en blanco",
+      },
+      email: {
+        label: "Correo electrónico",
+        placeholder: "Escribe tu email",
+        errorMsg: "* El email no es válido",
+      },
+      valoration: {
+        label: "Valoración",
+      },
+      comment: {
+        label: "Comentario",
+        placeholder:"Escribe tu comentario",
+      },
+      submit: {
+        value: "Enviar",
+      },
+      submitErrors: {
+        empty: "Hay algún campo vacío",
+        error: "Hay algún error",
+        done: "Enviado correctamente"
       },
     },
   },
@@ -68,6 +118,10 @@ const translations = {
           title: "Colours so real you won't believe it. ",
           text: "The 13.3-inch Retina display's 2560-by-1600-pixel resolution delivers stunning detail and realism. Text is crystal clear, colours shine brightly, and the glass goes right to the edge of the case so nothing distracts you.",
         },
+        keyboard: {
+          title: "A keyboard with capital letters. ",
+          text: "Enjoy absolute convenience from A to Z. In addition to typing at your leisure, this keyboard's pre-programmed shortcuts give you instant access to the features you use most. Talk to Siri, change the keyboard language, reply with the perfect emoji, find documents with Spotlight - you can't even imagine what you can do with a tap. And the ambient light-sensing backlight lets you type even when it's half-dark.",
+        },
       },
       features: {
         ram: {
@@ -84,6 +138,52 @@ const translations = {
             { title: "Capacity", text: "256GB" },
           ],
         },
+        conections: {
+          title: "Connections",
+          properties: [
+            { title: "Wifi", text: "wifi 802.11ax (6th gen.)" },
+            { title: "Bluetooth", text: "Bluetooth 5.0" },
+            { title: "Headphones", text: "3,5 milimeters" },
+          ],
+        },
+        battery: {
+          title: "Battery",
+          properties: [
+            { title: "Duration", text: "Up to 18 hours" },
+            { title: "Adapter", text: "Type C 30w" },
+          ],
+        },
+      },
+      opinions: {
+        opinions: "opinions",
+        call: "Write your opinion",
+      },
+    },
+    productForm: {
+      name: {
+        label: "name",
+        placeholder: "Write your name",
+        errorMsg: "Only letters and blanks are allowed",
+      },
+      email: {
+        label: "eMail",
+        placeholder: "Write your email",
+        errorMsg: "Invalid email",
+      },
+      valoration: {
+        label: "Valoration",
+      },
+      comment: {
+        label: "Comment",
+        placeholder: "Write yout comment"
+      },
+      submit: {
+        value: "Send",
+      },
+      submitErrors: {
+        empty: "There is an empty field",
+        error: "There is an error",
+        done: "Sent successfully"
       },
     },
   },

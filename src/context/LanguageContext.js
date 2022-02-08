@@ -3,7 +3,10 @@ import translations from "../data/translations";
 
 const LanguageContext = createContext();
 
-const initialLanguage = "es";
+const idiomaPreferido = localStorage.getItem("language")
+
+const initialLanguage = idiomaPreferido || "es";
+
 
 const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(initialLanguage);
@@ -11,6 +14,7 @@ const LanguageProvider = ({ children }) => {
 
   const handleLanguage = async (e) => {
     setLanguage(e.target.dataset.language);
+    localStorage.setItem("language", e.target.dataset.language)
   };
 
   useEffect(() => {

@@ -2,6 +2,10 @@
   margin-bottom: 1rem;
 }
 
+.li p {
+  line-height: 1.3;
+}
+
 @media screen and (max-width: 768px) {
     .ul {
         padding-inline-start: 20px;

@@ -1,26 +1,36 @@
 .features {
-    width: 80%;
-    margin: auto;
     margin: 2rem auto;
 }
 
 .title {
     text-transform: uppercase;
     line-height: 3;
-    background-color: lightblue;
-    border-bottom: 2px solid grey;
+    background-color: grey;
+    border-radius: 5px;
     padding-left: .5rem;
-
+    color: white;
 }
 
 .properties {
     line-height: 3;
     display: flex;
+    gap: 1rem;
+    align-items: center;
     border-bottom: 1px solid lightblue;
     padding-left: .5rem;
+}
 
+.properties:last-child {
+    border: none;
 }
 
 .property {
     min-width: 25%;
+}
+
+
+@media screen and (max-width:400px){
+    .properties {
+        font-size: 12px;
+    }
 }

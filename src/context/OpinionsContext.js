@@ -37,14 +37,14 @@ const OpinionsProvider = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    if (opinions.length === 0) return 0;
+    if (opinions.length === 0) setOpinionsAverage(0);
 
     let average = [];
 
     opinions.forEach((el) => average.push(el.valoration));
 
     let x = average.reduce((acc, el) => acc + el);
-    let y = x/average.length
+    let y = x/(average.length)
     setOpinionsAverage(y)
 
   }, [opinions]);

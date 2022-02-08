@@ -32,8 +32,8 @@ const Comments = () => {
     <div>
       {opinionsSortByDate.map((el, index) => {
         return (
-          <>
-            <div key={index} className={styles.comment}>
+          <div key={index}>
+            <div className={styles.comment}>
               <h2 className={styles.name}>{el.name}</h2>
               <span className={styles.date}>{formatDate(el.date)}</span>
               <div className={styles.stars}>
@@ -45,7 +45,7 @@ const Comments = () => {
               </div>
             </div>
             <hr></hr>
-          </>
+          </div>
         );
       })}
     </div>

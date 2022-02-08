@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: flex-start;
   position: relative;
-  grid-column: 0 / 2;
 }
 
 .label {
@@ -13,7 +12,6 @@
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: .5rem;
-  color: var(--dark-secondary);
 }
 
 .groupInput {
@@ -21,6 +19,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: lightblue;
+  border-radius: 3px;
 }
 
 .input {
@@ -29,33 +29,29 @@
   outline: none;
   border: none;
   background-color: transparent;
-  color: white;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
-.nameSpan {
-  grid-column: 0 / 1;
-}
-
-.emailSpan {
-  grid-column: 1 / 2;
-}
-
-.objectSpan {
-  grid-column: 0 / 2;
+.input::placeholder {
+  color: grey;
+  font-weight: 300;
 }
 
 .inputBorder {
-  border-bottom: 2px solid var(--dark-secondary-50);
+  border-bottom: 2px solid grey;
+
 }
 
 .inputBorderError {
-  border-bottom: 2px solid var(--red);
+  /* border-bottom: 2px solid red; */
+  border-bottom: 2px solid red;
+
 }
 
 .inputBorderActive {
-  background-color: #2c3440;
-  border-bottom: 2px solid var(--dark-tertiary);
+  border-bottom: 2px solid orange;
   border-radius: 3px;
 }
 
@@ -70,11 +66,5 @@
   color: red;
   font-size: 12px;
   text-align: left;
-}
-
-.gc1 {
-  grid-column: span 1;
-}
-.gc2 {
-  grid-column: span 2;
+  padding-top: .2rem;
 }
