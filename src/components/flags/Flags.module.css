@@ -1,13 +1,14 @@
 .flags {
-    display: flex;
-    gap: 1rem;
-  }
-  .flags img {
-    width: 30px;
-    cursor: pointer;
-    border-radius: 3px;
-  }
+  display: flex;
+  gap: 1rem;
+}
 
-  .flags img:active {
-    transform: scale(1.2);
-  }
+.flags img {
+  width: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.flags img:active {
+  transform: scale(1.2);
+}

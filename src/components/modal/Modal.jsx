@@ -5,7 +5,7 @@ const Modal = ({ isOpen, toggleIsOpen, children, width, padding }) => {
   const style = {
     width: width || "fit-content",
     padding: padding || "0px",
-  }
+  };
 
   return (
     <>
