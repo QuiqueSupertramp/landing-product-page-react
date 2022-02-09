@@ -30,8 +30,8 @@ const ProductHeader = () => {
       <Modal
         isOpen={isOpen}
         toggleIsOpen={toggleIsOpen}
-        width={innerWidth > 768 ? "70%" : innerWidth > 500 ? "80%" : "90%"}
-        padding="1.5rem 1rem 1rem 1rem"
+        width={innerWidth > 768 ? "60%" : innerWidth > 500 ? "80%" : "90%"}
+        padding="2.5rem 1rem 1rem 1rem"
       >
         <img
           src={macBook}
